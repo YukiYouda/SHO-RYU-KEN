@@ -28,11 +28,10 @@ class ViewController: UIViewController {
     @IBAction func attackBtn(_ sender: Any) {
         
         charaImage.animationImages = imageArrayAttack
-                
         charaImage.animationDuration = 1
-                charaImage.animationRepeatCount = 1
-                
-                charaImage.startAnimating()
+        charaImage.animationRepeatCount = 1
+        
+        charaImage.startAnimating()
     }
     
 }
